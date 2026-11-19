@@ -1,0 +1,430 @@
+[
+  {
+    "fit": "G_MAR",
+    "status": "ACCEPTED",
+    "thresholds": {
+      "rank_rhat_lt": 1.01,
+      "bulk_ess_ge": 400,
+      "tail_ess_ge": 400
+    },
+    "gate": {
+      "area150": true,
+      "event150": true,
+      "rho": true,
+      "sigw": true,
+      "phi": true,
+      "sd": true,
+      "eta": true,
+      "report_site_sd": true,
+      "report_day_sd": true
+    },
+    "n_pass": 9,
+    "n_gate": 9,
+    "diagnostics": {
+      "area100": {
+        "rhat_rank": 1.00012407612176,
+        "ess_bulk": 9823.466927428131,
+        "ess_tail": 10202.337079373101
+      },
+      "event100": {
+        "rhat_rank": 1.0002092369927387,
+        "ess_bulk": 9740.647589621705,
+        "ess_tail": 10089.041647487345
+      },
+      "area120": {
+        "rhat_rank": 0.9998615765703636,
+        "ess_bulk": 9698.50898924202,
+        "ess_tail": 10492.293250159782
+      },
+      "event120": {
+        "rhat_rank": 1.0001390633250693,
+        "ess_bulk": 10128.048105898137,
+        "ess_tail": 9838.323660508186
+      },
+      "area150": {
+        "rhat_rank": 1.0000681924300763,
+        "ess_bulk": 9258.404701052134,
+        "ess_tail": 10189.870018116171
+      },
+      "event150": {
+        "rhat_rank": 1.000175290896207,
+        "ess_bulk": 9859.50059921651,
+        "ess_tail": 9991.75586262626
+      },
+      "rho": {
+        "rhat_rank": 1.0028170122701658,
+        "ess_bulk": 2432.0851672179238,
+        "ess_tail": 3231.584366319815
+      },
+      "sigw": {
+        "rhat_rank": 1.00089746207895,
+        "ess_bulk": 2822.580050844353,
+        "ess_tail": 4118.150345946991
+      },
+      "phi": {
+        "rhat_rank": 1.0014839031300498,
+        "ess_bulk": 2327.848174746017,
+        "ess_tail": 3367.6855480460963
+      },
+      "xi": {
+        "rhat_rank": 5573329758084156.0,
+        "ess_bulk": 4.010695187165775,
+        "ess_tail": 4.010695187165775
+      },
+      "sd": {
+        "rhat_rank": 1.0004376127864534,
+        "ess_bulk": 4334.693800517666,
+        "ess_tail": 5405.818839823416
+      },
+      "kappa_mean": {
+        "constant": true
+      },
+      "kappa_min": {
+        "constant": true
+      },
+      "eta": {
+        "rhat_rank": 1.0004593784569245,
+        "ess_bulk": 6248.089373237304,
+        "ess_tail": 9111.47343317356
+      },
+      "report_site_sd": {
+        "rhat_rank": 1.0037193262506736,
+        "ess_bulk": 505.7751009503574,
+        "ess_tail": 988.0090223058253
+      },
+      "report_day_sd": {
+        "rhat_rank": 1.0076415193738022,
+        "ess_bulk": 522.8089534965334,
+        "ess_tail": 898.4804691508464
+      }
+    },
+    "chains": 4,
+    "draws_per_chain": 3000,
+    "independent_days_not_assumed": true,
+    "scores_and_risk_maps_promotion": true
+  },
+  {
+    "fit": "G_MNAR",
+    "status": "ACCEPTED",
+    "thresholds": {
+      "rank_rhat_lt": 1.01,
+      "bulk_ess_ge": 400,
+      "tail_ess_ge": 400
+    },
+    "gate": {
+      "area150": true,
+      "event150": true,
+      "rho": true,
+      "sigw": true,
+      "phi": true,
+      "sd": true,
+      "eta": true,
+      "report_site_sd": true,
+      "report_day_sd": true
+    },
+    "n_pass": 9,
+    "n_gate": 9,
+    "diagnostics": {
+      "area100": {
+        "rhat_rank": 1.0014131543248819,
+        "ess_bulk": 5459.844924922875,
+        "ess_tail": 4545.981316765127
+      },
+      "event100": {
+        "rhat_rank": 1.0005001517038832,
+        "ess_bulk": 10145.575910464637,
+        "ess_tail": 9616.72017830857
+      },
+      "area120": {
+        "rhat_rank": 1.0004099513128517,
+        "ess_bulk": 6193.904370081567,
+        "ess_tail": 6532.998256979504
+      },
+      "event120": {
+        "rhat_rank": 1.000901866995453,
+        "ess_bulk": 6925.032941020772,
+        "ess_tail": 2951.325057473364
+      },
+      "area150": {
+        "rhat_rank": 1.0007657895036677,
+        "ess_bulk": 6134.31285267651,
+        "ess_tail": 10156.127385393898
+      },
+      "event150": {
+        "rhat_rank": 1.0008147159872938,
+        "ess_bulk": 9944.544244582437,
+        "ess_tail": 11347.252979658664
+      },
+      "rho": {
+        "rhat_rank": 1.0086289869498706,
+        "ess_bulk": 837.5919790035958,
+        "ess_tail": 1113.7726757431258
+      },
+      "sigw": {
+        "rhat_rank": 1.004834007011871,
+        "ess_bulk": 1197.9926047308165,
+        "ess_tail": 2231.099052690169
+      },
+      "phi": {
+        "rhat_rank": 1.0070439279466086,
+        "ess_bulk": 831.1420010625458,
+        "ess_tail": 1164.8420758235657
+      },
+      "xi": {
+        "rhat_rank": 5555848351609633.0,
+        "ess_bulk": 4.004576659038902,
+        "ess_tail": 4.004576659038902
+      },
+      "sd": {
+        "rhat_rank": 1.0007151454735153,
+        "ess_bulk": 3409.491467627238,
+        "ess_tail": 6182.3864105808825
+      },
+      "kappa_mean": {
+        "constant": true
+      },
+      "kappa_min": {
+        "constant": true
+      },
+      "eta": {
+        "rhat_rank": 1.000159914609925,
+        "ess_bulk": 15384.84578996237,
+        "ess_tail": 20158.87190621991
+      },
+      "report_site_sd": {
+        "rhat_rank": 1.0020008735060257,
+        "ess_bulk": 757.7138319648683,
+        "ess_tail": 1496.9316043216365
+      },
+      "report_day_sd": {
+        "rhat_rank": 1.0045196053764154,
+        "ess_bulk": 1555.5837356187637,
+        "ess_tail": 2541.010943628204
+      }
+    },
+    "chains": 4,
+    "draws_per_chain": 7000,
+    "independent_days_not_assumed": true,
+    "scores_and_risk_maps_promotion": true
+  },
+  {
+    "fit": "GM_MAR",
+    "status": "REJECTED",
+    "thresholds": {
+      "rank_rhat_lt": 1.01,
+      "bulk_ess_ge": 400,
+      "tail_ess_ge": 400
+    },
+    "gate": {
+      "area150": true,
+      "event150": true,
+      "rho": true,
+      "sigw": true,
+      "phi": true,
+      "sd": true,
+      "eta": true,
+      "report_site_sd": true,
+      "report_day_sd": false,
+      "xi": false,
+      "kappa_mean": false
+    },
+    "n_pass": 8,
+    "n_gate": 11,
+    "diagnostics": {
+      "area100": {
+        "rhat_rank": 1.0003344592437668,
+        "ess_bulk": 9189.225223129473,
+        "ess_tail": 10303.903174350866
+      },
+      "event100": {
+        "rhat_rank": 1.0002564090259667,
+        "ess_bulk": 9118.341419983091,
+        "ess_tail": 9819.52189458229
+      },
+      "area120": {
+        "rhat_rank": 1.0005584653632442,
+        "ess_bulk": 5361.64175149848,
+        "ess_tail": 9860.660315605312
+      },
+      "event120": {
+        "rhat_rank": 1.0003963866698282,
+        "ess_bulk": 5329.396258839979,
+        "ess_tail": 5124.731080280031
+      },
+      "area150": {
+        "rhat_rank": 1.0006496111555712,
+        "ess_bulk": 7584.494188324838,
+        "ess_tail": 9960.1310350866
+      },
+      "event150": {
+        "rhat_rank": 1.0000942906190338,
+        "ess_bulk": 10333.330752829723,
+        "ess_tail": 9092.317054686902
+      },
+      "rho": {
+        "rhat_rank": 1.0020310777854322,
+        "ess_bulk": 1286.1678024102805,
+        "ess_tail": 2412.772023370211
+      },
+      "sigw": {
+        "rhat_rank": 1.0094689983278191,
+        "ess_bulk": 598.7676961694362,
+        "ess_tail": 1447.4051564740807
+      },
+      "phi": {
+        "rhat_rank": 1.0011034284940967,
+        "ess_bulk": 1878.046372165831,
+        "ess_tail": 2898.404842555737
+      },
+      "xi": {
+        "rhat_rank": 1.0204666421033188,
+        "ess_bulk": 200.02782425076913,
+        "ess_tail": 487.0811531409635
+      },
+      "sd": {
+        "rhat_rank": 1.001143064675047,
+        "ess_bulk": 3728.186779478643,
+        "ess_tail": 5361.689550599016
+      },
+      "kappa_mean": {
+        "rhat_rank": 1.0105307365060825,
+        "ess_bulk": 538.759378561047,
+        "ess_tail": 1182.2717609597846
+      },
+      "kappa_min": {
+        "rhat_rank": 1.0174364330937784,
+        "ess_bulk": 274.4165372010421,
+        "ess_tail": 684.4694048782214
+      },
+      "eta": {
+        "rhat_rank": 1.0000682702231585,
+        "ess_bulk": 6767.922121277627,
+        "ess_tail": 8836.647342700684
+      },
+      "report_site_sd": {
+        "rhat_rank": 1.0088791250396092,
+        "ess_bulk": 472.82415013449975,
+        "ess_tail": 923.4709591358518
+      },
+      "report_day_sd": {
+        "rhat_rank": 1.0049814789401728,
+        "ess_bulk": 390.38951137829423,
+        "ess_tail": 985.6975005000351
+      }
+    },
+    "chains": 4,
+    "draws_per_chain": 3000,
+    "independent_days_not_assumed": true,
+    "scores_and_risk_maps_promotion": false
+  },
+  {
+    "fit": "GM_MNAR",
+    "status": "REJECTED",
+    "thresholds": {
+      "rank_rhat_lt": 1.01,
+      "bulk_ess_ge": 400,
+      "tail_ess_ge": 400
+    },
+    "gate": {
+      "area150": true,
+      "event150": true,
+      "rho": false,
+      "sigw": false,
+      "phi": false,
+      "sd": true,
+      "eta": true,
+      "report_site_sd": false,
+      "report_day_sd": true,
+      "xi": false,
+      "kappa_mean": true
+    },
+    "n_pass": 6,
+    "n_gate": 11,
+    "diagnostics": {
+      "area100": {
+        "rhat_rank": 1.0030904098680922,
+        "ess_bulk": 2216.1541459963228,
+        "ess_tail": 2067.1241314759404
+      },
+      "event100": {
+        "rhat_rank": 1.0005601671534783,
+        "ess_bulk": 3471.372691789961,
+        "ess_tail": 5780.298145423429
+      },
+      "area120": {
+        "rhat_rank": 1.0015024575868716,
+        "ess_bulk": 2620.2577177345456,
+        "ess_tail": 2756.9518004300817
+      },
+      "event120": {
+        "rhat_rank": 1.0008432430883814,
+        "ess_bulk": 3400.86086368699,
+        "ess_tail": 3462.9413793636263
+      },
+      "area150": {
+        "rhat_rank": 1.0004971012190127,
+        "ess_bulk": 3215.017245252595,
+        "ess_tail": 4958.656221891203
+      },
+      "event150": {
+        "rhat_rank": 1.0009103348265584,
+        "ess_bulk": 4616.250297663549,
+        "ess_tail": 5640.22327579231
+      },
+      "rho": {
+        "rhat_rank": 1.0223214812167307,
+        "ess_bulk": 186.30398598117023,
+        "ess_tail": 179.04405929579718
+      },
+      "sigw": {
+        "rhat_rank": 1.009053418887323,
+        "ess_bulk": 289.75535189322216,
+        "ess_tail": 496.2516688195681
+      },
+      "phi": {
+        "rhat_rank": 1.029241167888555,
+        "ess_bulk": 252.09260907557336,
+        "ess_tail": 578.7740295229729
+      },
+      "xi": {
+        "rhat_rank": 1.0288637511120267,
+        "ess_bulk": 199.90763469454438,
+        "ess_tail": 434.09366122911945
+      },
+      "sd": {
+        "rhat_rank": 1.0088004086208306,
+        "ess_bulk": 890.3630191896816,
+        "ess_tail": 1564.0046769778721
+      },
+      "kappa_mean": {
+        "rhat_rank": 1.0059722015402066,
+        "ess_bulk": 420.4827159026119,
+        "ess_tail": 467.7833941626431
+      },
+      "kappa_min": {
+        "rhat_rank": 1.0391949382429966,
+        "ess_bulk": 154.01202919139158,
+        "ess_tail": 354.5217407862274
+      },
+      "eta": {
+        "rhat_rank": 0.9999943025845688,
+        "ess_bulk": 6645.809667076272,
+        "ess_tail": 9194.838684528695
+      },
+      "report_site_sd": {
+        "rhat_rank": 1.0051527325802587,
+        "ess_bulk": 329.95958467576605,
+        "ess_tail": 855.6759428337457
+      },
+      "report_day_sd": {
+        "rhat_rank": 1.0052310262826998,
+        "ess_bulk": 704.4964111988636,
+        "ess_tail": 1286.8292778412595
+      }
+    },
+    "chains": 4,
+    "draws_per_chain": 3000,
+    "independent_days_not_assumed": true,
+    "scores_and_risk_maps_promotion": false
+  }
+]

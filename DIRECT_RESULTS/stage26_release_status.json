@@ -1,0 +1,51 @@
+{
+  "fit_gates": {
+    "within__MAR": {
+      "status": "ACCEPTED",
+      "passed": 9,
+      "total": 9,
+      "worst_gate_rhat": 1.0076415193738022
+    },
+    "within__minus_ln2": {
+      "status": "ACCEPTED",
+      "passed": 9,
+      "total": 9,
+      "worst_gate_rhat": 1.0086289869498706
+    },
+    "within__plus_ln2": {
+      "status": "ACCEPTED",
+      "passed": 9,
+      "total": 9,
+      "worst_gate_rhat": 1.0095544734582742
+    },
+    "within__minus_ln4": {
+      "status": "REJECTED",
+      "passed": 3,
+      "total": 9,
+      "worst_gate_rhat": null
+    },
+    "pm10_recorded__minus_ln2": {
+      "status": "ACCEPTED",
+      "passed": 9,
+      "total": 9,
+      "worst_gate_rhat": 1.0009613901873267
+    },
+    "all_dates__minus_ln2": {
+      "status": "ACCEPTED",
+      "passed": 9,
+      "total": 9,
+      "worst_gate_rhat": 1.0098755555141596
+    }
+  },
+  "accepted_scenarios": [
+    "within__MAR",
+    "within__minus_ln2",
+    "within__plus_ln2",
+    "pm10_recorded__minus_ln2",
+    "all_dates__minus_ln2"
+  ],
+  "contrasts_are_differences_of_independently_fitted_conditional_posterior_means": true,
+  "MAR_field_invariance_to_eligibility": "exact for independent outcome and reporting priors, gamma=0",
+  "no_gamma_identification": true,
+  "no_true_citywide_outcomes_for_calibration": true
+}

@@ -1,0 +1,43 @@
+PASS: Source CSV equals Stage25 real_panel.csv
+PASS: Source CSV equals Stage26 real_panel.csv
+PASS: Stage25 coherent_G_MAR status ACCEPTED
+PASS: Stage25 coherent_G_MNAR status ACCEPTED
+PASS: Stage25 coherent_GM_MAR status REJECTED
+PASS: Stage25 coherent_GM_MNAR status REJECTED
+PASS: Stage26 five accepted gamma/eligibility scenarios
+PASS: Stage26 -log(4) excluded
+PASS: Stage26 within__plus_ln2 9/9 gate
+PASS: Stage26 within__MAR 9/9 gate
+PASS: Stage26 all_dates__minus_ln2 9/9 gate
+PASS: Stage26 within__minus_ln2 9/9 gate
+PASS: Stage26 pm10_recorded__minus_ln2 9/9 gate
+PASS: Area120 Jan01: within__MAR ~65.913%
+PASS: Area120 Jan01: within__minus_ln2 ~67.863%
+PASS: Area120 Jan01: within__plus_ln2 ~60.55%
+PASS: Area120 Jan01: pm10_recorded__minus_ln2 ~65.397%
+PASS: Area120 Jan01: all_dates__minus_ln2 ~66.971%
+PASS: Exactly 49 withheld reported readings
+PASS: Stage29 G_MAR full gate
+PASS: G_MAR: posterior predictive dimensions/index match
+PASS: G_MAR recomputed MAE: 11.320070918
+PASS: G_MAR recomputed CRPS: 8.171712566
+PASS: G_MAR recomputed Coverage90: 0.857142857
+PASS: G_MAR recomputed MeanPI90Width: 47.307142857
+PASS: G_MAR recomputed Brier100: 0.089586632
+PASS: G_MAR recomputed Brier120: 0.045878296
+PASS: G_MAR recomputed Brier150: 0.035049746
+PASS: Stage29 G_MNAR full gate
+PASS: G_MNAR: posterior predictive dimensions/index match
+PASS: G_MNAR recomputed MAE: 11.485656706
+PASS: G_MNAR recomputed CRPS: 8.266855141
+PASS: G_MNAR recomputed Coverage90: 0.857142857
+PASS: G_MNAR recomputed MeanPI90Width: 47.408163265
+PASS: G_MNAR recomputed Brier100: 0.093040874
+PASS: G_MNAR recomputed Brier120: 0.047814291
+PASS: G_MNAR recomputed Brier150: 0.034875009
+PASS: Stage30 twCRPS120 source values
+PASS: Stage31 discrimination event counts
+PASS: Stage31 within__minus_ln2 high-risk area ~69.0523%
+PASS: Stage31 within__plus_ln2 high-risk area ~57.4439%
+
+ALL ARCHIVAL REPRODUCTION CHECKS PASSED. Full refitting has not been rerun by this verification script.

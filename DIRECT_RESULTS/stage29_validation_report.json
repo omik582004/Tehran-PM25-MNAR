@@ -1,0 +1,102 @@
+{
+  "design": "Retrospective held-out reported readings, conditioning on known R=1 at masked indices; not future forecast or validation at true R=0",
+  "holdout_n": 49,
+  "train_n": 191,
+  "full_window_reported_n": 240,
+  "reporting_flags_unchanged": true,
+  "baseline_estimated_prior_180_days_conditional_not_propagated": true,
+  "comparative_fits_accepted": true,
+  "holdout_sha256": "e1cc4121834e3f327ab02e25787fede531bf3b01995abf2a44a77df7f685ee14",
+  "scoring": "One seed-controlled rounded Gaussian measurement replicate per joint posterior draw; empirical predictive CRPS, Brier at 100/120/150, posterior-mean MAE and 90% central intervals",
+  "summary": [
+    {
+      "fit": "G_MAR",
+      "n_holdout": 49,
+      "posterior_draws": 40000,
+      "MAE": 11.320070918367348,
+      "CRPS": 8.17171256572704,
+      "Coverage90": 0.8571428571428571,
+      "MeanPI90Width": 47.307142857142864,
+      "Brier100": 0.08958663179846937,
+      "Brier120": 0.045878296058673475,
+      "Brier150": 0.035049745676020407
+    },
+    {
+      "fit": "G_MNAR",
+      "n_holdout": 49,
+      "posterior_draws": 28000,
+      "MAE": 11.485656705539359,
+      "CRPS": 8.266855141061015,
+      "Coverage90": 0.8571428571428571,
+      "MeanPI90Width": 47.40816326530612,
+      "Brier100": 0.09304087421907539,
+      "Brier120": 0.04781429068617244,
+      "Brier150": 0.0348750090066639
+    }
+  ],
+  "paired_delta_CI": [
+    {
+      "metric": "MAE",
+      "MNAR_minus_MAR": 0.16558578717201142,
+      "block_bootstrap_low95": -0.1985561689128496,
+      "block_bootstrap_high95": 0.7128223954166386,
+      "bootstrap_resamples": 10000,
+      "blocks": "calendar day",
+      "n_days": 14
+    },
+    {
+      "metric": "CRPS",
+      "MNAR_minus_MAR": 0.09514257533397512,
+      "block_bootstrap_low95": -0.12211635488460552,
+      "block_bootstrap_high95": 0.43034295653769383,
+      "bootstrap_resamples": 10000,
+      "blocks": "calendar day",
+      "n_days": 14
+    },
+    {
+      "metric": "brier_100",
+      "MNAR_minus_MAR": 0.0034542424206059977,
+      "block_bootstrap_low95": -8.297463837981862e-05,
+      "block_bootstrap_high95": 0.008259669431765258,
+      "bootstrap_resamples": 10000,
+      "blocks": "calendar day",
+      "n_days": 14
+    },
+    {
+      "metric": "brier_120",
+      "MNAR_minus_MAR": 0.0019359946274989592,
+      "block_bootstrap_low95": -0.0006521302212424208,
+      "block_bootstrap_high95": 0.00482933744992294,
+      "bootstrap_resamples": 10000,
+      "blocks": "calendar day",
+      "n_days": 14
+    },
+    {
+      "metric": "brier_150",
+      "MNAR_minus_MAR": -0.00017473666935651825,
+      "block_bootstrap_low95": -0.0013060227505393726,
+      "block_bootstrap_high95": 0.0006826633159839299,
+      "bootstrap_resamples": 10000,
+      "blocks": "calendar day",
+      "n_days": 14
+    },
+    {
+      "metric": "coverage90",
+      "MNAR_minus_MAR": 0.0,
+      "block_bootstrap_low95": 0.0,
+      "block_bootstrap_high95": 0.0,
+      "bootstrap_resamples": 10000,
+      "blocks": "calendar day",
+      "n_days": 14
+    },
+    {
+      "metric": "pi90_width",
+      "MNAR_minus_MAR": 0.10102040816326624,
+      "block_bootstrap_low95": -0.09878646580583342,
+      "block_bootstrap_high95": 0.30556547619047614,
+      "bootstrap_resamples": 10000,
+      "blocks": "calendar day",
+      "n_days": 14
+    }
+  ]
+}
