@@ -1,0 +1,20 @@
+{
+  "holdout_n": 49,
+  "calendar_days": 14,
+  "heldout_event_counts": {
+    "100": 15,
+    "120": 10,
+    "150": 5
+  },
+  "decision_grid": [
+    0.05,
+    0.1,
+    0.2,
+    0.25,
+    0.3,
+    0.5,
+    0.7,
+    0.8
+  ],
+  "caution": "Secondary, post-hoc; not an independent validation or evidence for true MNAR; observational outcomes are reported readings R=1."
+}
